@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/cat"
+            android:title="Rojo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/dog"
+            android:title="Verde" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/heart"
+            android:title="Azul" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/unicorn"
+            android:title="Rosado" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nave_share"
+                android:icon="@drawable/dog"
+                android:title="Morado"/>
+            <item
+                android:id="@+id/nave_send"
+                android:icon="@drawable/cat"
+                android:title="Amarillo"/>
+        </menu>
+    </item>
+</menu>
